@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Database\Kiosk.Domain\Kiosk.Domain.csproj" />
+    <ProjectReference Include="..\Kiosk.Interfaces\Kiosk.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\..\Kiosk.API\bin\Debug\net7.0\Dapper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

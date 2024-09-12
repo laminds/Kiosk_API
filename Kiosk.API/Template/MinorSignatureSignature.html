@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Member Disclaimer</title>
+    <style>
+        body {
+            font-family: Arial;
+            color: #272727;
+            padding: 15px;
+        }
+
+        .title {
+            top: 20px;
+            position: absolute;
+            margin-left: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-top: 18px;
+            color: #42603C;
+        }
+
+        .logo {
+            max-height: 85px;
+            display: inline-block;
+        }
+
+        .margin-top-20 {
+            margin-top: 20px;
+        }
+
+        .margin-top-40 {
+            margin-top: 40px;
+        }
+
+        .header-Text {
+            font-weight: bold;
+        }
+
+        .info-text {
+            margin-bottom: 0px;
+            border-bottom: 1px solid black;
+            margin-right: 60px;
+            color: #42603C;
+        }
+
+        .border-bottom {
+            border-bottom: 1px solid black;
+            color: #42603C;
+        }
+
+        .font-bold {
+            font-weight: bold;
+        }
+
+        .sign-box {
+            min-height: 200px;
+            border: 1px solid black;
+        }
+
+        .initial-sign-box {
+            min-height: 100px;
+            border: 1px solid black;
+        }
+
+        .dis-inline-block {
+            display: inline-block;
+        }
+
+        .club-text {
+            display: inline-block;
+            float: right;
+            margin-top: 10px;
+        }
+
+        .width-50 {
+            width: 49.80%;
+            display: inline-block;
+        }
+
+        .fl-right {
+            float: right;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .width-30 {
+            width: 29.40%;
+            display: inline-block;
+        }
+
+        .width-70 {
+            width: 70%;
+            display: inline-block;
+        }
+
+        .font-size-14 {
+            font-size: 14px;
+        }
+
+        .club-text td {
+            padding: 5px;
+            font-size: 14px;
+            text-align: right;
+        }
+
+        .mt-0 {
+            margin-top: 0px;
+        }
+
+        .va-top {
+            vertical-align: top;
+            color: #42603C;
+        }
+
+        .fl-right-text {
+            color: #42603C;
+        }
+
+
+
+
+
+        /* Check Box  */
+        .containerChk {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            /*font-size: 22px;*/
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            color: #42603C;
+        }
+
+            /* Hide the browser's default checkbox */
+            .containerChk input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+                height: 0;
+                width: 0;
+            }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            /*background-color: #8080809e;*/
+            background-color: gray !important;
+        }
+
+
+
+        /* When the checkbox is checked, add a blue background */
+        .containerChk input:checked ~ .checkmark {
+            background-color: gray;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .containerChk input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .containerChk .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .Ptextsize {
+            font-size: 18px;
+        }
+
+        .BysigningFontSize {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <img src="https://kiosk.youfit.com/assets/images/YouFit-Logo.svg" class="img-responsive logo" />
+            <h3 class="title">Minor Guest Release Waiver</h3>
+            <div class="club-text">
+                <table>
+                    <tr>
+                        <td>
+                            Club#
+                        </td>
+                        <td class="border-bottom">
+                            ##ClubNumber##
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date:
+                        </td>
+                        <td class="border-bottom">
+                            ##Date##
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="margin-top-40 font-size-14">
+            <div class="width-50">
+                <p class="info-text">##FirstName##</p>
+                <p class="mt-0">Legal First Name</p>
+            </div>
+            <div class="width-50">
+                <p class="info-text">##LastName##</p>
+                <p class="mt-0">Legal Last Name</p>
+            </div>
+        </div>
+        <div class="font-size-14">
+            <div class="width-50">
+                <p class="info-text">##PhoneNumber##</p>
+                <p class="mt-0">Phone Number</p>
+            </div>
+            <div class="width-50">
+                <p class="info-text">##DOB##</p>
+                <p class="mt-0">Date Of Birth</p>
+            </div>
+        </div>
+        <div class="margin-top-20 font-bold">
+            <p class="Ptextsize">
+                These guidelines are a legal agreement between you and YouFit (the “Agreement”). Failure to abide by any
+                codes could result in revocation of gym access temporarily or revocation of complete membership. By signing
+                below, I confirm that I have read and am abiding by these guidelines.
+            </p>
+            <p class="Ptextsize">
+                Physical exercise can be strenuous and subject to risk. YouFit urges you to obtain a physical examination from a doctor before using any exercise equipment or participating in any exercise activity. You (each member, guest,
+                or participant) agree that if you engage in any physical exercise or activity or use any club amenity on the
+                premises or off premises at a sponsored club event, you do so voluntarily entirely at your own risk and assume
+                all risks of injury, illness, damage or loss or theft of any personal property. This includes, without limitation,
+                your use of the locker rooms, parking area, sidewalk area, or any equipment in the club facility and your
+                participation in any activity, class, program, or instruction. You represent and warrant that you are in good physical
+                condition and able to safely and competently use YouFit’s facilities and services. You acknowledge and agree that no
+                employees or personnel of YouFit are capable of diagnosing, examining or treating medical conditions of any kind,
+                of evaluating anyone’s ability to safely participate in any activity, or of determining the effect of any specific exercise
+                on any person or medical condition, and that no person has made any representation to the contrary. You assume all
+                risk of injury, illness, disability, or death related in any way to your use of YouFit facilities or services. You release
+                YouFit from any and all liability, claims, demands or actions, at law or in equity, which exist now or may exist in the
+                future, regardless of YouFit’s alleged or actual fault, related to your use of YouFit facilities or services, and covenant
+                not to sue. This release and covenant not to sue expressly includes but is not limited to any direct, special, incidental,
+                indirect, punitive, or consequential damages. You agree to indemnify, defend, and hold harmless YouFit, from and
+                against any and all liability, claims, demands, or actions, at law or in equity, related to any use by of YouFit facilities
+                or services, any violation of law by you. All references in this Agreement to YouFit include YouFit’s owners, officers,
+                directors, employees, affiliates, subsidiaries, and agents. All references in this Agreement to YouFit’s services include,
+                without limitation, personal training and group fitness classes. YOU AGREE THAT YOU ARE VOLUNTARILY
+                PARTICIPATING IN ANY ACTIVITIES THAT INVOLVE THE USE OF THESE FACILITIES AND PREMISES
+                AND EXPRESSLY AGREE TO ASSUME ALL RISKS OF ANY INJURY, ILLNESS, OR DEATH AS A RESULT
+                OF PARTICIPATION IN THESE ACTIVITIES.
+            </p>
+            <p class="Ptextsize">
+                ARBITRATION: I agree that any dispute, controversy, or claim arising out of or relating in any way to my
+                participation in the activities offered at YouFit shall be exclusively resolved by binding arbitration administered
+                by the American Arbitration Association under its Commercial Arbitration Rules. The place of the arbitration
+                shall be the city where the club is located and the laws of the state where the club is located shall apply. The
+                arbitral tribunal may not consolidate more than one person’s claims and may not otherwise preside over any form of
+                a representative or class proceeding. Notwithstanding the tribunal’s power to rule on its own jurisdiction and the
+                validity or enforceability of the agreement to arbitrate, the tribunal has no power to rule on the validity or enforceability
+                of the agreement to arbitrate solely on an individual basis. In the event of a claim arising out of or relating in any
+                way to the my participation in activities offered at YouFit, the complaining party shall notify the other party in
+                writing thereof through a demand for arbitration which shall be made within a reasonable time after the claim
+                has arisen, and in no event shall it be made after two years from when the aggrieved party knew or should have
+                known of the claim. Judgment on the award rendered by the arbitrator may be entered in any court having
+                jurisdiction thereof. I waive the right to a jury trial or trial before a judge in a public court. Neither I nor YouFit
+                shall be entitled to join or consolidate disputes by or against others in any arbitration, or to include in any
+                arbitration any dispute as a representative or member of a class or to act in any arbitration in the interest of the
+                public or in a private Attorney General capacity. In the event the prohibition on class arbitration is deemed invalid
+                or unenforceable, then the remaining portions of the arbitration agreement will remain in force.
+            </p><br /><br />
+            <p class="font-bold Ptextsize">
+                I UNDERSTAND AND AGREE TO WAIVE THE RIGHT TO A JURY TRIAL OR TRIAL BEFORE A
+                JUDGE IN A PUBLIC COURT. I SHALL NOT BE ENTITLED TO JOIN OR CONSOLIDATE DISPUTES
+                BY OR AGAINST OTHERS IN ANY ARBITRATION, OR TO INCLUDE IN ANY ARBITRATION ANY
+                DISPUTE AS A REPRESENTATIVE OR MEMBER OF A CLASS, OR TO ACT IN ANY ARBITRATION
+                IN THE INTEREST OF THE GENERAL PUBLIC OR IN A PRIVATE ATTORNEY GENERAL
+                CAPACITY.
+            </p>
+            <p class="Ptextsize">
+                By signing this waiver, you confirm that you are over 18. If you are a parent/guardian of a minor under 18 years
+                of age, you will need to sign on behalf of the minor as a release of liability, enter your contact information, and
+                enter the minor's name as identification.
+            </p>
+            <p class="Ptextsize">
+                I agree and understand that by signing below, that all electronic signatures are the legal equivalent of my
+                manual/handwritten signature and I consent to be legally bound to this agreement. I further agree my
+                signature on this document is as valid as if I signed the document in writing. Under penalty of perjury, I
+                herewith affirm that my electronic signature was signed by myself with full knowledge and consent and am
+                legally bound to these terms and conditions.
+            </p>
+        </div>
+        <div class="margin-top-20">
+            <div class="width-30 va-top">
+                Parent-Signature
+            </div>
+            <div class="width-70">
+                <div class="sign-box">
+                    <img src="##SignatureSource##" />
+                </div>
+            </div>
+            <span class="fl-right">By <span class="fl-right-text">##FullName##</span> at <span class="fl-right-text">##DateWithTimeStamp##</span></span>
+        </div>
+    </div>
+</body>
+</html>

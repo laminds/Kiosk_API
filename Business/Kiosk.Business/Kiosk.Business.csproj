@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Template\**" />
+    <Compile Remove="TempReportFiles\**" />
+    <EmbeddedResource Remove="Template\**" />
+    <EmbeddedResource Remove="TempReportFiles\**" />
+    <None Remove="Template\**" />
+    <None Remove="TempReportFiles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="ConfigurationManager.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NReco.PdfGenerator" Version="1.2.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="UAParser" Version="3.1.47" />
+  </ItemGroup>
+
+</Project>

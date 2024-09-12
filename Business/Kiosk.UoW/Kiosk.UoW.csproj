@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kiosk.Interfaces\Kiosk.Interfaces.csproj" />
+    <ProjectReference Include="..\Kiosk.Repositories\Kiosk.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

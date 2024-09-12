@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ABCMessages>
+	<ABCMessage Name="TSY-04" Value="Card Declined. Potential fraud detected. Contact card issuer for assistance." />
+	<ABCMessage Name="TSY-05" Value="Card Declined. Unable to process." />
+	<ABCMessage Name="TSY-06" Value="Card processing error. Please try again or contact card issuer for assistance." />
+	<ABCMessage Name="TSY-07" Value="Card Declined. Potential fraud detected. Contact card issuer for assistance." />
+	<ABCMessage Name="TSY-10" Value="Card Declined. Insufficient funds." />
+	<ABCMessage Name="TSY-14" Value="Card Declined. Invalid card number. Verify and re-enter card number." />
+	<ABCMessage Name="TSY-15" Value="Card Declined. Invalid card number. Verify and re-enter card number." />
+	<ABCMessage Name="TSY-19" Value="Card processing error. Please try again or contact card issuer for assistance." />
+	<ABCMessage Name="TSY-39" Value="Card processing error. Please try again or contact card issuer for assistance." />
+	<ABCMessage Name="TSY-41" Value="Card Declined. Potential fraud detected. Contact card issuer for assistance." />
+	<ABCMessage Name="TSY-43" Value="Card Declined. Potential fraud detected. Contact card issuer for assistance." />
+	<ABCMessage Name="TSY-46" Value="Card Declined. Closed Account." />
+	<ABCMessage Name="TSY-51" Value="Card Declined. Insufficient funds." />
+	<ABCMessage Name="TSY-54" Value="Card Declined. Expired card." />
+	<ABCMessage Name="TSY-61" Value="Card Declined. Transaction amount exceeds approved limit." />
+	<ABCMessage Name="TSY-62" Value="Card Declined. Invalid CVV code." />
+	<ABCMessage Name="TSY-65" Value="Card Declined. Daily account limit exceeded." />
+	<ABCMessage Name="TSY-6P" Value="Card processing error. Please try again or contact card issuer for assistance." />
+	<ABCMessage Name="TSY-75" Value="Card Declined. Too many PIN attempts." />
+	<ABCMessage Name="TSY-78" Value="Card Declined. Invalid card number. Verify and re-enter card number." />
+	<ABCMessage Name="TSY-82" Value="Card Declined. Invalid CVV code." />
+	<ABCMessage Name="TSY-93" Value="Card Declined. Unable to process." />
+	<ABCMessage Name="TSY-EC" Value="Card Declined. Invalid CID code." />
+	<ABCMessage Name="TSY-N7" Value="Card Declined. Mismatched CVV or CID code." />
+	<ABCMessage Name="Card has previously received a hard decline" Value="Card processing error. Please try another card or contact card issuer for assistance." />
+	<ABCMessage Name="Failed to fund Agreement" Value="Card Declined. Insufficient funds." />
+	<ABCMessage Name="expected format between 1 and 15 alphanumeric characters" Value="Invalid First Name format. Please verify no special characters or leading space." />
+	<ABCMessage Name="expected format between 1 and 19 alphanumeric characters" Value="Invalid Last Name format. Please verify no special characters or leading space." />
+	<ABCMessage Name="expected format Account Number must conform to AmericanExpress convention" Value="Invalid American Express card number format. Verify and re-enter card number." />
+	<ABCMessage Name="expected format Account Number must conform to Discover convention" Value="Invalid Discover card number format. Verify and re-enter card number." />
+	<ABCMessage Name="expected format Account Number must conform to MasterCard convention" Value="Invalid MasterCard Express card number format. Verify and re-enter card number." />
+	<ABCMessage Name="expected format Account Number must conform to Visa convention" Value="Invalid Visa card number format. Verify and re-enter card number." />
+	<ABCMessage Name="expected format exactly 3 digits" Value="Invalid CVV or CID. Verify and re-enter 3 digit code." />
+	<ABCMessage Name="expected format exactly 4 digits" Value="Invalid CVV or CID. Verify and re-enter 4 digit code." />
+	<ABCMessage Name="expected format visa|discover|mastercard|americanexpress" Value="Invalid card type selected." />
+	<ABCMessage Name="expected format integer greater than or equal to 2024" Value="Invalid Expiration date. Verify and re-enter date." />
+	<ABCMessage Name="only todayCcBillingZip and todayCcCvvCode are expected when isTodayBillingSameAsDraft is TRUE" Value="Zip code and CVV code required." />
+	<ABCMessage Name="draftCreditCard information must be provided when isTodayBillingSameAsDraft is TRUE" Value="Credit card information required." />
+	<ABCMessage Name="credit card cvv code format is not valid for credit card type" Value="Mismatched CVV or CID. Verify and re-enter code." />
+	<ABCMessage Name="Card is expired" Value="Invalid transaction. Card expired." />
+</ABCMessages>

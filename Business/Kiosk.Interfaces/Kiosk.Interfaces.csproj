@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Database\Kiosk.Domain\Kiosk.Domain.csproj" />
+    <ProjectReference Include="..\Kiosk.Business\Kiosk.Business.csproj" />
+  </ItemGroup>
+
+</Project>

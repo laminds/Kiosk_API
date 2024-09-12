@@ -1,0 +1,181 @@
+
+3/29/2024 1:14:41 PM
+MemberCheckOut Method : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : MemberCheckOut Method Start, 
+)
+
+3/29/2024 1:14:41 PM
+MemberCheckOut Method : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : MemberPersonalTraining, 
+)
+
+3/29/2024 1:14:41 PM
+MemberPTCheckOut : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : MemberPTCheckOut, 
+)
+
+3/29/2024 1:14:41 PM
+MemberPTCheckOut : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : a530511abaac4447bae6d58335df67ad, 
+)
+
+3/29/2024 1:14:41 PM
+Save Existing And New PTMember InfoIn Local DB : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : Start to Save Existing And New PT Member Info In Local DB, 
+)
+
+3/29/2024 1:14:41 PM
+SaveExistingAndNewPTMemberInfoInLocalDB : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : SaveExistingAndNewPTMemberInfoInLocalDB, 
+)
+
+3/29/2024 1:14:41 PM
+InsertExistingMemberInfo : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : InsertExistingMemberInfo, 
+)
+
+3/29/2024 1:14:42 PM
+InsertPTMemberInfo : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : InsertPTMemberInfo, 
+)
+
+3/29/2024 1:14:42 PM
+CreatePTPlanSignUp : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : CreatePTPlanSignUp, 
+)
+
+3/29/2024 1:14:42 PM
+Update Club Account PT : (ClubNumber : , 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 55015, 
+ SourceName : , 
+ Message : Update Club Account PT , 
+)
+
+3/29/2024 1:14:43 PM
+Update Club Account PT : (ClubNumber : , 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 55015, 
+ SourceName : , 
+ Message : OK, 
+)
+
+3/29/2024 1:14:43 PM
+PTMessage : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : no active member was found for the club number and memberid provided in the request., 
+)
+
+3/29/2024 1:14:44 PM
+SaveExistingAndNewPTMemberInfoInLocalDB : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : SaveExistingAndNewPTMemberInfoInLocalDB, 
+)
+
+3/29/2024 1:14:44 PM
+InsertExistingMemberInfo : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : InsertExistingMemberInfo, 
+)
+
+3/29/2024 1:14:44 PM
+InsertPTMemberInfo : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : InsertPTMemberInfo, 
+)
+
+3/29/2024 1:14:45 PM
+CreatePTPlanSignUp : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : CreatePTPlanSignUp, 
+)
+
+3/29/2024 1:14:45 PM
+Update Club Account PT : (ClubNumber : , 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 55016, 
+ SourceName : , 
+ Message : Update Club Account PT , 
+)
+
+3/29/2024 1:14:45 PM
+Update Club Account PT : (ClubNumber : , 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 55016, 
+ SourceName : , 
+ Message : OK, 
+)
+
+3/29/2024 1:14:46 PM
+SGTMessage : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : no active member was found for the club number and memberid provided in the request., 
+)
+
+3/29/2024 1:14:46 PM
+MemberCheckOut Method : (ClubNumber : 2602, 
+ Name : Test Krishna, 
+ Email : krishnapatel.laminds@gmail.com, 
+ MemberId : 3884cc2d21ba409e9817cedbb72c9e6f, 
+ SourceName : MemberPersonalTraining, 
+ Message : , 
+ EXMessage : , 
+)
